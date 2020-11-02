@@ -80,9 +80,9 @@ let MoviePlace2=["亞特蘭大", "巴德堡", "加德滿都", "博科特農場",
                                     Button(action:{
 
                                             switch love {
-                                            case 80,90:
+                                            case 80...90:
                                                 self.result = 1
-                                            case 91,100:
+                                            case 91...100:
                                                 self.result = 2
                                             default:
                                                 self.result = 3
