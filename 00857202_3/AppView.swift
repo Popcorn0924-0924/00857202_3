@@ -11,16 +11,16 @@ struct AppView: View {
     var body: some View {
         
             TabView{
-//                 Marvel()
-//                     .tabItem{
-//                         Text("Home")
-//                         Image(systemName:"house.fill")
-//                 }
-//                 Place()
-//                     .tabItem{
-//                         Text("Intro")
-//                         Image(systemName:"heart.fill")
-//                     }
+                Marvel()
+                    .tabItem{
+                        Text("Home")
+                        Image(systemName:"house.fill")
+                }
+                Place()
+                    .tabItem{
+                        Text("Intro")
+                        Image(systemName:"heart.fill")
+                    }
                 random()
                     .tabItem{
                         Text("Movie")
